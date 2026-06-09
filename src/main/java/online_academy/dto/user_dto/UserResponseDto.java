@@ -1,6 +1,6 @@
 package online_academy.dto.user_dto;
 
-import online_academy.entity.Role;
+import online_academy.entity.enems.Role;
 
 public record UserResponseDto(
     Long id,

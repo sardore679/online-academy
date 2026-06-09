@@ -1,4 +1,4 @@
-package online_academy.entity;
+package online_academy.entity.enems;
 
 public enum Role {
     STUDENT,

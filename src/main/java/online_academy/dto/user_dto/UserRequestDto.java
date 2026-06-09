@@ -3,7 +3,7 @@ package online_academy.dto.user_dto;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;
-import online_academy.entity.Role;
+import online_academy.entity.enems.Role;
 
 public record UserRequestDto(
 

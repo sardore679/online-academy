@@ -3,6 +3,7 @@ package online_academy.entity;
 
 import jakarta.persistence.*;
 import lombok.*;
+import online_academy.entity.enems.Role;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
