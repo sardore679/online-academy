@@ -1,10 +1,10 @@
-package online_academy.controller.enrollment;
+package online_academy.controller;
 
 
 import lombok.RequiredArgsConstructor;
 import online_academy.dto.enrollment_dto.EnrollmentRequestDto;
 import online_academy.dto.enrollment_dto.EnrollmentResponseDto;
-import online_academy.service.enrollment_service.EnrollmentService;
+import online_academy.service.EnrollmentService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

@@ -1,10 +1,10 @@
-package online_academy.controller.quiz;
+package online_academy.controller;
 
 
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import online_academy.dto.quiz_dto.*;
-import online_academy.service.quiz_service.QuizService;
+import online_academy.service.QuizService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;

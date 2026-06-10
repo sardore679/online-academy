@@ -1,7 +1,6 @@
-package online_academy.service.enrollment_service;
+package online_academy.service;
 
 
-import jdk.dynalink.linker.LinkerServices;
 import lombok.RequiredArgsConstructor;
 import online_academy.dto.enrollment_dto.EnrollmentRequestDto;
 import online_academy.dto.enrollment_dto.EnrollmentResponseDto;

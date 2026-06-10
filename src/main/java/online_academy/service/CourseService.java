@@ -1,4 +1,4 @@
-package online_academy.service.course_service;
+package online_academy.service;
 
 
 import lombok.RequiredArgsConstructor;

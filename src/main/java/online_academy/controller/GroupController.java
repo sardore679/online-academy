@@ -1,11 +1,11 @@
-package online_academy.controller.group;
+package online_academy.controller;
 
 
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import online_academy.dto.group_dto.GroupRequestDto;
 import online_academy.dto.group_dto.GroupResponseDto;
-import online_academy.service.group_service.GroupService;
+import online_academy.service.GroupService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;

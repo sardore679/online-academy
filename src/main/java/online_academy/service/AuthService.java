@@ -1,4 +1,4 @@
-package online_academy.service.auth_service;
+package online_academy.service;
 
 import lombok.RequiredArgsConstructor;
 import online_academy.dto.auth_dto.AuthRequestDto;
@@ -6,7 +6,6 @@ import online_academy.dto.auth_dto.AuthResponseDto;
 import online_academy.dto.user_dto.UserRequestDto;
 import online_academy.entity.User;
 import online_academy.repository.UserRepository;
-import online_academy.service.jwt_service.JwtService;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 

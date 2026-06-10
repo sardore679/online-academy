@@ -1,11 +1,11 @@
-package online_academy.controller.attendance;
+package online_academy.controller;
 
 
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import online_academy.dto.attendance_dto.AttendanceRequestDto;
 import online_academy.dto.attendance_dto.AttendanceResponseDto;
-import online_academy.service.attendance_service.AttendanceService;
+import online_academy.service.AttendanceService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;

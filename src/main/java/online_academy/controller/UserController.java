@@ -1,4 +1,4 @@
-package online_academy.controller.user;
+package online_academy.controller;
 
 import lombok.RequiredArgsConstructor;
 import online_academy.dto.user_dto.UserRequestDto;

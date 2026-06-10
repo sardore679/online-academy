@@ -1,11 +1,11 @@
-package online_academy.controller.grade;
+package online_academy.controller;
 
 
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import online_academy.dto.grade_dto.GradeRequestDto;
 import online_academy.dto.grade_dto.GradeResponseDto;
-import online_academy.service.grade_service.GradeService;
+import online_academy.service.GradeService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;

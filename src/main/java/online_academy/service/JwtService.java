@@ -1,4 +1,4 @@
-package online_academy.service.jwt_service;
+package online_academy.service;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
