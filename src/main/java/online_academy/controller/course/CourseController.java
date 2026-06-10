@@ -35,6 +35,11 @@ public class CourseController {
         return ResponseEntity.ok(courseService.createCourse(dto));
     }
 
+    @GetMapping("/search")
+    public ResponseEntity<List<CourseResponseDto>> searchCourse(@RequestParam String title) {
+        return ResponseEntity.ok(courseService.searchCourses(title));
+    }
+
     @PreAuthorize("hasRole('TEACHER')")
     @DeleteMapping("/{id}")
     public ResponseEntity<Void> deleteCourse(@PathVariable Long id) {

@@ -64,6 +64,13 @@ public class CourseService {
 
     }
 
+    public List<CourseResponseDto> searchCourses(String title) {
+        return courseRepository.findByTitleContainingIgnoreCase(title)
+                .stream()
+                .map(this::toDto)
+                .toList();
+    }
+
     public void deleteCourse(Long id) {
         Course course = courseRepository.findById(id)
                 .orElseThrow( () -> new RuntimeException("Kurs topilmadi: " + id));
